@@ -1,0 +1,82 @@
+
+const data = {
+    
+  
+  products: [
+    {
+      _id: '1',
+      name: 'ps5',
+      category: 'console',
+      image: '/images/p1.jpg',
+      price: 550,
+      countInStock: 10,
+      brand: 'ps5',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality The PlayStation 5 (PS5) is a home video game console developed by Sony Interactive Entertainment. ... Other features include the DualSense controller with haptic feedback and backward compatibility with most PlayStation 4 and PlayStation VR games.',
+    },
+    {
+      _id: '2',
+      name: 'PC GAMER',
+      category: 'console',
+      image: '/images/p2.jpg',
+      price: 1000,
+      countInStock: 20,
+      brand: 'console',
+      rating: 4.0,
+      numReviews: 10,
+      description: 'Gaming computers are specialized personal computers designed for playing video games. ... Gaming PCs are also used for other demanding tasks such as video editing. Many gamers and computer enthusiasts choose to overclock their CPU(s) and GPU(s) in order to gain extra performance.',
+    },
+    {
+      _id: '3',
+      name: 'ps4',
+      category: 'console',
+      image: '/images/p3.jpg',
+      price: 220,
+      countInStock: 0,
+      brand: 'Lacoste',
+      rating: 4.8,
+      numReviews: 17,
+      description: 'high quality product',
+    },
+    {
+      _id: '4',
+      name: 'PC dell ',
+      category: 'Pants',
+      image: '/images/p4.jpg',
+      price: 460,
+      countInStock: 15,
+      brand: 'console',
+      rating: 4.5,
+      numReviews: 14,
+      description: 'high quality product with very good cpu and Ram ',
+    },
+    {
+      _id: '5',
+      name: 'pc lenovo',
+      category: 'pc',
+      image: '/images/p5.jpg',
+      price: 500,
+      countInStock: 5,
+      brand: '',
+      rating: 4.5,
+      numReviews: 10,
+      description: 'high quality product',
+    },
+    {
+      _id: '6',
+      name: 'smart tv',
+      category: 'Pants',
+      image: '/images/p6.jpg',
+      price: 600,
+      countInStock: 12,
+      brand: 'samsung',
+      rating: 4.5,
+      numReviews: 15,
+      description: 'A smart TV, also known as a connected TV (CTV), is a traditional television set with integrated Internet and interactive Web 2.0 features, which allows users to stream music and videos, browse the internet, and view photos. Smart TVs are a technological convergence of computers, televisions, and digital media players.',
+    },
+    
+   
+  ],
+};
+export default data;
